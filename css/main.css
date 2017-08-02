@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin-top: 70px;
+	background: url('../img/back.gif') top;
+	-webkit-background-size: 150%;
+	background-size: 150%;
+	background: rgb(237, 238, 240);
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Railway", sans-serif;
+}
+.navbar-brand {
+	font-family: "Lato", sans-serif;
+	font-weight: 800;
+	color: #fff;
+}
+
+.navbar {
+	font-family: "Lato", sans-serif;
+	font-weight: 600;
+	height: 70px;
+	background: rgb(80, 114, 153);
+}
+.navbar a {
+	color: #fff;
+}
+a.red {
+	color: #FA8072;
+}
+a.blue {
+	color: #4169E0;
+}
+a.grey {
+	color: #778899;
+}
+#navCollapse {
+	background: rgb(80, 114, 153);
+}
+footer {
+	color: #778899;
+	width: 100%;
+	text-align: center;
+}
+.row {
+	padding-top: 20px;
+}
+.card {
+	width: 100%;
+}
+ .card-title{
+	font-family: "Lato", sans-serif, bold;
+	font-weight: 700;
+	line-height: 33px;
+	font-size: 24px;
+	margin-bottom: 2px;
+}
+
+.date {
+	font-size: 13px;
+}
+.card-img-1 {
+	width: 100%;
+	height: 247px;
+	background: url('../img/summer.jpg') no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.card-img-2 {
+	width: 100%;
+	height: 247px;
+	background: url('../img/school.jpg') no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.card-img-3 {
+	width: 100%;
+	height: 247px;
+	background: url('../img/high-school.jpg') no-repeat bottom;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.header {
+	padding-bottom: 15px;
+}
